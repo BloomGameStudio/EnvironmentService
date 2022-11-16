@@ -1,0 +1,1480 @@
+{
+  "NPCEnemies": [],
+  "SolidEnvironmentalObjects": [],
+  "PlayableCharacters": [],
+  "TerrainLayer": [],
+  "SnowyTerrain": [],
+  "WaterTerrain": [],
+  "GrassyTerrain": [
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 20.0,
+        "y": 0.0,
+        "z": -100.0,
+        "normalized": {
+          "x": 0.196116135,
+          "y": 0.0,
+          "z": -0.9805806,
+          "normalized": {
+            "x": 0.196116149,
+            "y": 0.0,
+            "z": -0.9805807,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 101.980392,
+        "sqrMagnitude": 10400.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 20.0,
+        "y": 0.0,
+        "z": -90.0,
+        "normalized": {
+          "x": 0.216930464,
+          "y": 0.0,
+          "z": -0.9761871,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 92.19544,
+        "sqrMagnitude": 8500.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 20.0,
+        "y": 0.0,
+        "z": -80.0,
+        "normalized": {
+          "x": 0.242535621,
+          "y": 0.0,
+          "z": -0.9701425,
+          "normalized": {
+            "x": 0.242535636,
+            "y": 0.0,
+            "z": -0.970142543,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 82.46211,
+        "sqrMagnitude": 6800.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 20.0,
+        "y": 0.0,
+        "z": -70.0,
+        "normalized": {
+          "x": 0.274721116,
+          "y": 0.0,
+          "z": -0.9615239,
+          "normalized": {
+            "x": 0.274721146,
+            "y": 0.0,
+            "z": -0.96152395,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 72.8011,
+        "sqrMagnitude": 5300.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 20.0,
+        "y": 0.0,
+        "z": -60.0,
+        "normalized": {
+          "x": 0.316227764,
+          "y": 0.0,
+          "z": -0.9486833,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 63.2455521,
+        "sqrMagnitude": 4000.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -100.0,
+        "normalized": {
+          "x": 0.287347883,
+          "y": 0.0,
+          "z": -0.957826257,
+          "normalized": {
+            "x": 0.2873479,
+            "y": 0.0,
+            "z": -0.9578263,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 104.403069,
+        "sqrMagnitude": 10900.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -90.0,
+        "normalized": {
+          "x": 0.316227764,
+          "y": 0.0,
+          "z": -0.948683262,
+          "normalized": {
+            "x": 0.3162278,
+            "y": 0.0,
+            "z": -0.9486833,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 94.86833,
+        "sqrMagnitude": 9000.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "SouthEastQuadrant",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -80.0,
+        "normalized": {
+          "x": 0.351123422,
+          "y": 0.0,
+          "z": -0.9363291,
+          "normalized": {
+            "x": 0.351123452,
+            "y": 0.0,
+            "z": -0.9363292,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 85.44004,
+        "sqrMagnitude": 7300.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -70.0,
+        "normalized": {
+          "x": 0.3939193,
+          "y": 0.0,
+          "z": -0.919145048,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 76.15773,
+        "sqrMagnitude": 5800.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -60.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.0,
+          "z": -0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.0,
+            "z": -0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 67.08204,
+        "sqrMagnitude": 4500.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": -100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.0,
+          "z": -0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "SouthEastQuadrant",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": -90.0,
+        "normalized": {
+          "x": 0.40613845,
+          "y": 0.0,
+          "z": -0.913811564,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 98.48858,
+        "sqrMagnitude": 9700.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "FullCross",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": -80.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.0,
+          "z": -0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.0,
+            "z": -0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 89.44272,
+        "sqrMagnitude": 8000.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": -70.0,
+        "normalized": {
+          "x": 0.49613896,
+          "y": 0.0,
+          "z": -0.868243158,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 80.6225739,
+        "sqrMagnitude": 6500.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": -60.0,
+        "normalized": {
+          "x": 0.5547002,
+          "y": 0.0,
+          "z": -0.8320503,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 72.11102,
+        "sqrMagnitude": 5200.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": -100.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.0,
+          "z": -0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.0,
+            "z": -0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 111.8034,
+        "sqrMagnitude": 12500.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "NorthSouthHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": -90.0,
+        "normalized": {
+          "x": 0.48564294,
+          "y": 0.0,
+          "z": -0.8741573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 102.9563,
+        "sqrMagnitude": 10600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "NorthSouthHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": -80.0,
+        "normalized": {
+          "x": 0.529998958,
+          "y": 0.0,
+          "z": -0.847998261,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 94.33981,
+        "sqrMagnitude": 8900.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "SouthEastQuadrant",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": -70.0,
+        "normalized": {
+          "x": 0.5812382,
+          "y": 0.0,
+          "z": -0.813733459,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 86.0232544,
+        "sqrMagnitude": 7400.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "EastWestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": -60.0,
+        "normalized": {
+          "x": 0.6401844,
+          "y": 0.0,
+          "z": -0.7682213,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 78.10249,
+        "sqrMagnitude": 6100.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "SouthWestQuadrant",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 60.0,
+        "y": 0.0,
+        "z": -100.0,
+        "normalized": {
+          "x": 0.51449573,
+          "y": 0.0,
+          "z": -0.8574929,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 116.619041,
+        "sqrMagnitude": 13600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "WestHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 60.0,
+        "y": 0.0,
+        "z": -90.0,
+        "normalized": {
+          "x": 0.5547002,
+          "y": 0.0,
+          "z": -0.832050264,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 108.166542,
+        "sqrMagnitude": 11700.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "NorthWestQuadrant",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 60.0,
+        "y": 0.0,
+        "z": -80.0,
+        "normalized": {
+          "x": 0.6,
+          "y": 0.0,
+          "z": -0.8,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 100.0,
+        "sqrMagnitude": 10000.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "NorthSouthHalf",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 60.0,
+        "y": 0.0,
+        "z": -70.0,
+        "normalized": {
+          "x": 0.6507914,
+          "y": 0.0,
+          "z": -0.7592566,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 92.19544,
+        "sqrMagnitude": 8500.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    },
+    {
+      "meshPathAngleName": "None",
+      "pathWidth": 2.0,
+      "density": 3.0,
+      "sideUnits": 10,
+      "name": "GameObject",
+      "layer": "GrassyTerrain",
+      "position": {
+        "x": 60.0,
+        "y": 0.0,
+        "z": -60.0,
+        "normalized": {
+          "x": 0.707106769,
+          "y": 0.0,
+          "z": -0.707106769,
+          "normalized": {
+            "x": 0.7071068,
+            "y": 0.0,
+            "z": -0.7071068,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 84.85281,
+        "sqrMagnitude": 7200.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      }
+    }
+  ]
+}
