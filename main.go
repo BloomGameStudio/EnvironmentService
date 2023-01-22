@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/BloomGameStudio/EnvironmentService/controllers"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/spf13/viper"
