@@ -24,6 +24,10 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
+	// HTTP Testing routes
+	e.GET("ping", controllers.Ping)
+	// End of HTTP testing routes
+
 	port := viper.GetString("PORT")
 	e.Logger.Fatal(e.Start(":" + port))
 
