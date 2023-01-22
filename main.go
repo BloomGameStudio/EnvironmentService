@@ -24,4 +24,7 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
+	port := viper.GetString("PORT")
+	e.Logger.Fatal(e.Start(":" + port))
+
 }
