@@ -29,6 +29,15 @@ func main() {
 	e.GET("ping", controllers.Ping)
 	// End of HTTP testing routes
 
+	// WebSocket Routes
+	ws := e.Group("/ws/")
+
+	// Web Socket Testing routes
+	ws.File("", "public/index.html") // http://127.0.0.1:1323/ws/
+	// ws://localhost:1323/ws
+	ws.GET("hello", controllers.Hello)
+	// End of Web Socket testing routes
+
 	port := viper.GetString("PORT")
 	e.Logger.Fatal(e.Start(":" + port))
 
