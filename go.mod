@@ -3,6 +3,7 @@ module github.com/BloomGameStudio/EnvironmentService
 go 1.19
 
 require (
+	github.com/gorilla/websocket v1.5.0
 	github.com/labstack/echo/v4 v4.10.0
 	github.com/spf13/viper v1.15.0
 )
