@@ -36,6 +36,7 @@ func main() {
 	ws.File("", "public/index.html") // http://127.0.0.1:1323/ws/
 	// ws://localhost:1323/ws
 	ws.GET("hello", controllers.Hello)
+	ws.GET("ping", controllers.PingWS)
 	// End of Web Socket testing routes
 
 	port := viper.GetString("PORT")
