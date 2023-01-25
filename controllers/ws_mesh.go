@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"encoding/json"
 	"errors"
 	"time"
 
@@ -49,7 +50,66 @@ forloop:
 		c.Logger().Debug("Writing to the WebSocket")
 
 		c.Logger().Debug("Pushing to the WebSocket")
+
+		jsonSampleData := `{
+    "meshes": [
+        {
+            "vertices": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 64.0
+                },
+                {
+                    "x": 64.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                {
+                    "x": 64.0,
+                    "y": 0.0,
+                    "z": 64.0
+                }
+            ],
+            "triangles": [
+                0,
+                1,
+                2,
+                2,
+                1,
+                3
+            ],
+            "name": "GameObject",
+            "layer": "WaterTerrain",
+            "transform": {
+                "position": {
+                    "x": 20.0,
+                    "y": 10.0,
+                    "z": -130.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        }
+    ]
+}`
+
 		mesh := &MeshesVertices{}
+		_ = json.Unmarshal([]byte(jsonSampleData), &mesh)
+
 		err := ws.WriteJSON(mesh)
 		if err != nil {
 
