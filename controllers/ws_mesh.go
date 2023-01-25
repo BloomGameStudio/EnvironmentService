@@ -49,7 +49,9 @@ forloop:
 		c.Logger().Debug("Writing to the WebSocket")
 
 		c.Logger().Debug("Pushing to the WebSocket")
-		err := ws.WriteJSON(&PingResp{"pong"})
+		mesh := &Mesh{}
+		mesh.Name = "PlaceholderMeshName"
+		err := ws.WriteJSON(mesh)
 		if err != nil {
 
 			switch {
