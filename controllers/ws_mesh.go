@@ -89,11 +89,11 @@ forloop:
 		c.Logger().Debug("Reading from the WebSocket")
 
 		// Initializer request player to bind into
-		reqPing := &PingResp{}
-		err := ws.ReadJSON(reqPing)
+		mesh := &Mesh{}
+		err := ws.ReadJSON(mesh)
 
 		if err != nil {
-			c.Logger().Debug("We get an error from Reading the JSON reqPing")
+			c.Logger().Debug("We get an error from Reading the JSON mesh")
 			switch {
 
 			case websocket.IsCloseError(err, websocket.CloseNoStatusReceived):
@@ -111,15 +111,15 @@ forloop:
 			}
 		}
 
-		c.Logger().Debugf("reqPing from the WebSocket: %+v", reqPing)
+		c.Logger().Debugf("mesh from the WebSocket: %+v", mesh)
 
-		c.Logger().Debug("Validating reqPing")
+		c.Logger().Debug("Validating mesh")
 
-		c.Logger().Debug("reqPing is valid")
+		c.Logger().Debug("mesh is valid")
 
-		c.Logger().Debugf("PingRequest: %+v", reqPing)
+		c.Logger().Debugf("meshRequest: %+v", mesh)
 
-		c.Logger().Debug("PingRequest is valid passing it to the Ping handler")
+		c.Logger().Debug("meshRequest is valid passing it to the Mesh handler")
 
 		// handlers.Player(*playerModel, c) //TODO: UNCOMNNET and handle errors
 	}
