@@ -49,8 +49,7 @@ forloop:
 		c.Logger().Debug("Writing to the WebSocket")
 
 		c.Logger().Debug("Pushing to the WebSocket")
-		mesh := &Mesh{}
-		mesh.Name = "PlaceholderMeshName"
+		mesh := &MeshesVertices{}
 		err := ws.WriteJSON(mesh)
 		if err != nil {
 
@@ -89,7 +88,7 @@ forloop:
 		c.Logger().Debug("Reading from the WebSocket")
 
 		// Initializer request player to bind into
-		mesh := &Mesh{}
+		mesh := &MeshesVertices{}
 		err := ws.ReadJSON(mesh)
 
 		if err != nil {
