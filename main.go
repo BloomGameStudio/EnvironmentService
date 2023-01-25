@@ -39,6 +39,8 @@ func main() {
 	ws.GET("ping", controllers.PingWS)
 	// End of Web Socket testing routes
 
+	ws.GET("mesh", controllers.MeshWS)
+
 	port := viper.GetString("PORT")
 	e.Logger.Fatal(e.Start(":" + port))
 
