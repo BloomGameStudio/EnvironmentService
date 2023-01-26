@@ -33,7 +33,7 @@ COPY --from=builder /app/server /app/server
 # Copy config
 # As the binary is being run from the root dir
 # the config has to be also in the root dir 
-# COPY config /config
+COPY config /config
 
 # Alternativly another viper config path could be added:
 # viper.AddConfigPath("/app/config")
