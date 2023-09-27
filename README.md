@@ -144,3 +144,17 @@ Staging Base Endpoint:
 Full Example:
 
 - http://127.0.0.1:1323/ping
+
+### WebSocket Base Endpoints
+
+Local Base Endpoint with Default Config:
+
+- ws://localhost:1323/ws
+
+Staging Base Endpoint:
+
+- ws://staging.environment.bloomstudio.gg/ws
+
+Full Example:
+
+- ws://staging.environment.bloomstudio.gg/ws/ping
