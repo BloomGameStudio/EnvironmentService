@@ -2,6 +2,16 @@
 
 The Bloom & LostLight Environment Service
 
+- [Environment Service](#environment-service)
+  - [Quickstart Guide:](#quickstart-guide)
+  - [Installation](#installation)
+    - [**Native Bare Metel**](#native-bare-metel)
+    - [**Using Docker \&\& DockerCompose**](#using-docker--dockercompose)
+    - [**Docker-Compose**](#docker-compose)
+    - [**Start the App and listen on port 1323**](#start-the-app-and-listen-on-port-1323)
+    - [**Docker**](#docker)
+  - [Contributors Guide](#contributors-guide)
+
 ## Quickstart Guide:
 
 ## Installation
