@@ -11,6 +11,9 @@ The Bloom & LostLight Environment Service
     - [**Start the App and listen on port 1323**](#start-the-app-and-listen-on-port-1323)
     - [**Docker**](#docker)
   - [Contributors Guide](#contributors-guide)
+  - [Endpoints](#endpoints)
+    - [Rest Base Endpoints](#rest-base-endpoints)
+    - [WebSocket Base Endpoints](#websocket-base-endpoints)
 
 ## Quickstart Guide:
 
