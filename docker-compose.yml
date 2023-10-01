@@ -1,9 +1,15 @@
 version: "3"
 services:
-  app:
+  enviormentservice:
+    image: ghcr.io/bloomgamestudio/environmentservice:main
+    volumes:
+      - enviormentservice:/database
     build:
       dockerfile: Dockerfile
       context: .
     ports:
       - "1323:1323"
     restart: unless-stopped
+
+volumes:
+  enviormentservice:
