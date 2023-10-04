@@ -9,9 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added 
 
+- Docker Compose:
+  - Docker Image 
+  - Docker Volume(future compatability with db setup)
+  
+
 - Documentation
 
 ### Changed
+
+- Docker Compose Application Name
+  
+
 
 [unreleased]: https://github.com/BloomGameStudio/EnvironmentService/compare/staging...dev
 [0.0.1]: https://github.com/BloomGameStudio/EnvironmentService/releases/tag/0.0.1
