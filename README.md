@@ -189,3 +189,19 @@ All Websocket Endpoints Accept the following:
 \*Capitalization matters
 
 ---
+
+##### Scripts
+
+`/scripts`
+
+Handles Scripts Data. Send and Receive Scripts Data.
+
+**Headers:** None
+
+**Request Body:**
+
+Expects a JSON serialized array of one or more Scripts [publicModel](./publicModels/scripts.go) or [model](./models/scripts.go) objects in the body.
+
+| Name | Type | Mandatory | Info              |
+| ---- | ---- | --------- | ----------------- |
+| ID   | INT  | YES       | Has to be unique. |
