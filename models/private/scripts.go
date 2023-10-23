@@ -1,6 +1,11 @@
 package models
 
+import "gorm.io/gorm"
+
 type Scripts struct {
+	gorm.Model
+	ScriptID uint
+	Trigger  string
 }
 
 func (s Scripts) IsValid() bool {
