@@ -5,15 +5,15 @@ import (
 	"errors"
 	"time"
 
-	"github.com/BloomGameStudio/PlayerService/controllers/ws"
-	"github.com/BloomGameStudio/PlayerService/database"
-	"github.com/BloomGameStudio/PlayerService/models"
+	"github.com/BloomGameStudio/EnvironmentService/controllers/ws"
+	"github.com/BloomGameStudio/EnvironmentService/database"
+	models "github.com/BloomGameStudio/EnvironmentService/models/private"
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
 	"github.com/spf13/viper"
 )
 
-func levelWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeoutCTX context.Context) {
+func scriptsWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeoutCTX context.Context) {
 
 	// Open DB outside of the loop
 	db := database.GetDB()
@@ -31,14 +31,14 @@ func levelWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeoutC
 		default:
 			// TODO: The Entire Level Model is being sent. It may contain information that should not be sent!
 
-			levels := &[]models.Level{}
+			reqModel := &[]models.Scripts{}
 
-			db.Where("updated_at > ?", lastUpdateAt).Find(levels)
+			db.Where("updated_at > ?", lastUpdateAt).Find(reqModel)
 			lastUpdateAt = time.Now() // update last update time to now only included objects that have been updated
 
-			if len(*levels) > 0 {
+			if len(*reqModel) > 0 {
 
-				err := socket.WriteJSON(levels)
+				err := socket.WriteJSON(reqModel)
 
 				if err != nil {
 					switch {
