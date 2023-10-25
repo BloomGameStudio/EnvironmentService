@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/BloomGameStudio/EnvironmentService/controllers"
+	"github.com/BloomGameStudio/EnvironmentService/controllers/ws/scripts"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/spf13/viper"
@@ -40,6 +41,7 @@ func main() {
 	// End of Web Socket testing routes
 
 	ws.GET("mesh", controllers.MeshWS)
+	ws.GET("scripts", scripts.Scripts)
 
 	port := viper.GetString("PORT")
 	e.Logger.Fatal(e.Start(":" + port))
