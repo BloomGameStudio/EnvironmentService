@@ -1,10 +1,21 @@
 package config
 
-import "github.com/spf13/viper"
+import (
+	"github.com/BloomGameStudio/EnvironmentService/database"
+	models "github.com/BloomGameStudio/EnvironmentService/models/private"
+	"github.com/spf13/viper"
+)
 
 func Init() {
 	ViperInit()
 
+	// Initialize Database
+	database.Init()
+
+	// TODO: Cleanup Migration
+	db := database.GetDB()
+
+	db.AutoMigrate(&models.Scripts{})
 }
 
 func ViperInit() {
