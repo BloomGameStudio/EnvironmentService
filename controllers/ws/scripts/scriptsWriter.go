@@ -25,7 +25,7 @@ func scriptsWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeou
 		select {
 
 		case <-timeoutCTX.Done():
-			c.Logger().Debug("RotationWriter Timeout Context Done")
+			c.Logger().Debug("Timeout Context Done")
 			return
 
 		default:
@@ -80,7 +80,7 @@ func scriptsWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeou
 					switch {
 
 					case errors.Is(err, websocket.ErrCloseSent):
-						c.Logger().Debug("WEbsocket ErrCloseSent")
+						c.Logger().Debug("Websocket ErrCloseSent")
 
 						select {
 
