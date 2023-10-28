@@ -100,16 +100,18 @@ func HandleUnknownError(c echo.Context, ch chan error, err error) {
 
 }
 
-func SendErrOrTimeout(c echo.Context, ch chan error) {
+func SendErrOrTimeout(c echo.Context, ch chan error, err error) {
+
+	c.Logger().Error(err)
 
 	select {
 
-	case ch <- nil:
-		c.Logger().Debug("Sent nil to channel")
+	case ch <- err:
+		c.Logger().Debug("Sent error to channel")
 		return
 
 	case <-time.After(wsTimeout):
-		c.Logger().Debug("Timed out sending nil to channel")
+		c.Logger().Debug("Timed out sending error to channel")
 		return
 
 	}
