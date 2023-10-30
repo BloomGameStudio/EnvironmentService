@@ -29,7 +29,7 @@ func scriptsWriter(c echo.Context, socket *websocket.Conn, ch chan error, timeou
 			return
 
 		default:
-			// TODO: The Entire Level Model is being sent. It may contain information that should not be sent!
+			// TODO: The Entire Model is being sent. It may contain information that should not be sent!
 
 			reqModel := &[]models.Scripts{}
 
