@@ -2,6 +2,7 @@ package scripts
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 
 	"github.com/BloomGameStudio/EnvironmentService/controllers/ws/errorHandlers"
@@ -27,12 +28,21 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 
 			// Initializer model to bind into
 			// NOTE: We are using a private model here TODO: Change to public model in production or handle this case
-			reqModel := &privateModels.Scripts{}
+			reqModel := &[]privateModels.Scripts{}
 
 			err := ws.ReadJSON(reqModel)
 
 			if err != nil {
-				errorHandlers.HandleReadError(c, ch, err)
+
+				switch err.(type) {
+
+				case *json.UnmarshalTypeError:
+					c.Logger().Info(err)
+
+				default:
+					errorHandlers.HandleReadError(c, ch, err)
+					return
+				}
 			}
 
 			if !reqModel.IsValid() {
