@@ -28,9 +28,9 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 
 			// Initializer model to bind into
 			// NOTE: We are using a private model here TODO: Change to public model in production or handle this case
-			reqModel := &[]privateModels.Scripts{}
+			reqModelArr := &[]privateModels.Scripts{}
 
-			err := ws.ReadJSON(reqModel)
+			err := ws.ReadJSON(reqModelArr)
 
 			if err != nil {
 
