@@ -45,29 +45,37 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 				}
 			}
 
-			if !reqModel.IsValid() {
-				// NOTE: no Chan Timeout used
-				ch <- errors.New("reqModel Validation failed")
-				return
+			for _, reqModel := range *reqModelArr {
+
+				if reqModel.ID <= 0 {
+					ch <- errors.New("missing/invalid ID")
+					return
+				}
+
+				if !reqModel.IsValid() {
+					// NOTE: no Chan Timeout used
+					ch <- errors.New("reqModel Validation failed")
+					return
+				}
+
+				// Use dot annotation for promoted aka embedded fields.
+				model := &privateModels.Scripts{}
+				// TODO: Handle ID and production mode
+
+				if viper.GetBool("DEBUG") {
+					// Accept client provided ID in DEBUG mode
+					model.ID = reqModel.ID
+
+				}
+
+				if !model.IsValid() {
+					// NOTE: no Chan Timeout used
+					ch <- errors.New("Model Validation failed")
+					return
+				}
+
+				// handlers.Level(*levelModel, c)
 			}
-
-			// Use dot annotation for promoted aka embedded fields.
-			model := &privateModels.Scripts{}
-			// TODO: Handle ID and production mode
-
-			if viper.GetBool("DEBUG") {
-				// Accept client provided ID in DEBUG mode
-				model.ID = reqModel.ID
-
-			}
-
-			if !model.IsValid() {
-				// NOTE: no Chan Timeout used
-				ch <- errors.New("Model Validation failed")
-				return
-			}
-
-			// handlers.Level(*levelModel, c)
 		}
 	}
 }
