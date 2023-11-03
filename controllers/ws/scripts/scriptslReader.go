@@ -47,6 +47,7 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 
 			for _, reqModel := range *reqModelArr {
 
+				// TODO: Clean this up
 				if reqModel.ID <= 0 {
 					ch <- errors.New("missing/invalid ID")
 					return
