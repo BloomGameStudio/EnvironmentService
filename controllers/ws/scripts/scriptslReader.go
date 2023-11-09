@@ -6,10 +6,12 @@ import (
 	"errors"
 
 	"github.com/BloomGameStudio/EnvironmentService/controllers/ws/errorHandlers"
+	"github.com/BloomGameStudio/EnvironmentService/database"
 	privateModels "github.com/BloomGameStudio/EnvironmentService/models/private"
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
 	"github.com/spf13/viper"
+	"gorm.io/gorm"
 )
 
 func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX context.Context) {
@@ -75,7 +77,20 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 					return
 				}
 
-				// handlers.Level(*levelModel, c)
+				db := database.GetDB()
+
+				var result *gorm.DB
+
+				result = db.Model(&privateModels.Scripts{}).Where(&model).FirstOrCreate(&model, &model)
+
+				if result.Error != nil {
+					c.Logger().Error(result.Error)
+					ch <- result.Error
+					return
+				}
+
+				db.Updates(&model)
+
 			}
 		}
 	}
