@@ -11,7 +11,6 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
 	"github.com/spf13/viper"
-	"gorm.io/gorm"
 )
 
 func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX context.Context) {
@@ -73,15 +72,13 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 
 				if !model.IsValid() {
 					// NOTE: no Chan Timeout used
-					ch <- errors.New("Model Validation failed")
+					ch <- errors.New("model Validation failed")
 					return
 				}
 
 				db := database.GetDB()
 
-				var result *gorm.DB
-
-				result = db.Model(&privateModels.Scripts{}).Where(&model).FirstOrCreate(&model, &model)
+				result := db.Model(&privateModels.Scripts{}).Where(&model).FirstOrCreate(&model, &model)
 
 				if result.Error != nil {
 					c.Logger().Error(result.Error)
