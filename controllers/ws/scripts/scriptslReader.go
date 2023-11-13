@@ -62,8 +62,11 @@ func scriptsReader(c echo.Context, ws *websocket.Conn, ch chan error, timeoutCTX
 
 				// Use dot annotation for promoted aka embedded fields.
 				model := &privateModels.Scripts{}
-				// TODO: Handle ID and production mode
 
+				model.ScriptID = reqModel.ScriptID
+				model.Trigger = reqModel.Trigger
+
+				// TODO: Handle ID and production mode
 				if viper.GetBool("DEBUG") {
 					// Accept client provided ID in DEBUG mode
 					model.ID = reqModel.ID
