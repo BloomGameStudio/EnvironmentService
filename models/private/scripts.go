@@ -4,8 +4,8 @@ import "gorm.io/gorm"
 
 type Scripts struct {
 	gorm.Model
-	ScriptID uint
-	Trigger  string
+	ScriptID uint   `json:"scriptId"`
+	Trigger  string `json:"trigger"`
 }
 
 func (s Scripts) IsValid() bool {
